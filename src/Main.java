@@ -1,8 +1,12 @@
+import connection.Conexion;
+import models.Moneda;
+
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
-        Scanner teclado = new Scanner(System.in);
+    public static void main(String[] args) throws IOException, InterruptedException {
+         /*Scanner teclado = new Scanner(System.in);
         System.out.println("Elija la pelicula de StarWars");
         System.out.println("1. A New Hope");
         System.out.println("2. The Empire Strikes Back");
@@ -11,7 +15,7 @@ public class Main {
         System.out.println("5. Attack of the Clones");
         System.out.println("6. Revenge of the Sith");
         int option= teclado.nextInt();
-        switch (option){
+       switch (option){
             case 1:
 
                 break;
@@ -31,6 +35,8 @@ public class Main {
 
                 break;
             default: System.out.println("No se encuentra la pelicula");
-        }
+        }*/
+        Conexion con = new Conexion();
+        System.out.println(con.convertir("EUR", "GBP", 50).conversion_result());
     }
 }

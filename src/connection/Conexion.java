@@ -1,7 +1,6 @@
 package connection;
 
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import models.Moneda;
 
 import java.io.IOException;
@@ -10,7 +9,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-public class conexion {
+public class Conexion {
     public Moneda convertir(String monedaBase, String monedaAConvertir, double cantidad) throws IOException, InterruptedException {
         URI uri = URI.create("https://v6.exchangerate-api.com/v6/25e846b87b24181b4424b5dc/pair/"+monedaBase+"/"+monedaAConvertir+"/"+cantidad);
         HttpClient client = HttpClient.newHttpClient();
