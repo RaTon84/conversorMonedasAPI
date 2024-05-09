@@ -3,7 +3,7 @@
 </div>
 
 ## Desafio Alura:
-proyecto  de consulta a APIs externas con el fin de manipular respuestas del servidor convirtiendo monedas en tiempo real.
+Proyecto  de consulta a APIs externas con el fin de manipular respuestas del servidor convirtiendo monedas en tiempo real.
 
 ## JAR ejecutable
   - [DOWNLOAD](https://github.com/RaTon84/conversorMonedasAPI/blob/8e6da1baa32f24997eb355ebbd8935a9467854dc/ConversorMonedasAPI.jar)
