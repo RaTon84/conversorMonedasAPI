@@ -27,7 +27,7 @@ public class SwingUI {
             public void actionPerformed(ActionEvent e) {
 
                 List<String> mon = new ArrayList<String>();
-                mon.add("ARS"); mon.add("USD"); mon.add("EUR");
+                mon.add("ARS"); mon.add("USD"); mon.add("EUR"); mon.add("BRL");
                 int monedaBase = cBBase.getSelectedIndex();
                 int monedaAConvertir = cBAConvertir.getSelectedIndex();
                 double monto = Double.parseDouble(tFMonto.getText());
@@ -52,8 +52,6 @@ public class SwingUI {
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
         frame.setResizable(false);
-        //frame.setSize(500,500);
         frame.setTitle("Conversor Online");
-
     }
 }

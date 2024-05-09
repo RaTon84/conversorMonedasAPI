@@ -37,6 +37,7 @@
             <item value="Pesos Arg"/>
             <item value="Dolares"/>
             <item value="Euros"/>
+            <item value="Reales"/>
           </model>
         </properties>
       </component>
@@ -57,6 +58,7 @@
             <item value="Pesos Arg"/>
             <item value="Dolares"/>
             <item value="Euros"/>
+            <item value="Reales"/>
           </model>
           <toolTipText value=""/>
         </properties>
